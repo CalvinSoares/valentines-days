@@ -17,22 +17,17 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
+      "Não",
+      "Tem certeza?",
+      "e se eu perguntar direitinho?",
+      "por favorrrrr",
+      "e se eu te der chocolate?",
+      "o que acha de um milkshake?",
+      "PORFAVOR BÊEEEE",
+      "mas... :*(",
       ":((((",
-      "PRETTY PLEASE",
       "Estoy muerto",
-      "No :(",
+      "Não :(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -80,13 +75,13 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Sim
             </button>
             <button
               onClick={handleNoClick}
               className=" rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Não" : getNoButtonText()}
             </button>
           </div>
         </>
