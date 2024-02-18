@@ -43,19 +43,20 @@ export default function Page() {
         <>
           <img src={Yess} />
           <div className="my-4 text-4xl font-bold">EU TE AMO BÊEEEEEEEEEE!!</div>
+          <p>Feliz 1 mês de namoro (7 meses não oficiais)</p>
           <div className='flex items-center justify-center mt-20'>
             <a
             href="https://www.youtube.com/watch?v=GC5Ecs5iIrc"
           className={`mr-4 rounded bg-purple-700 px-4 py-2 font-bold text-white hover:bg-purple-900`}
           >
-          Surpresa 1
+          Clica aqui bê
           </a>
 
           <a
           href='https://www.youtube.com/watch?v=DLDA0mYTnms'
           className=" rounded bg-purple-500 px-4 py-2 font-bold text-white hover:bg-purple-700"
           >
-          Surpresa 2
+            Aqui também
           </a>
           </div>
 
