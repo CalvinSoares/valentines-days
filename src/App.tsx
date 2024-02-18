@@ -1,6 +1,6 @@
 import './app.css'
 import { useState } from "react";
-import bear from './assets/bear.gif'
+import loveduck from './assets/love-duck.gif'
 import noo from './assets/noo.gif'
 import Yess from './assets/Yesss.gif'
 
@@ -34,7 +34,7 @@ export default function Page() {
   };
 
   const getGif = () => {
-    return noPressed ? noo : bear;
+    return noPressed ? noo : loveduck;
   }
 
   return (
